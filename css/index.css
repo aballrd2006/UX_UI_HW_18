@@ -179,3 +179,32 @@ img.logo {
     margin-right: auto;
     padding-top: 82px;
 }
+
+  
+@media only screen and (max-width: 1000px) {
+    #navBar {
+        display: none;
+    }
+
+    .navigation {
+        margin-left: auto;
+    }
+}
+
+  @media only screen and (max-width: 600px) {
+    .headerText {
+      position: static;
+      margin: 20px;
+    }
+
+    #skillsGrid {
+        margin: 0px auto;
+        display: grid;
+        grid-template-rows: 350px 350px 350px;
+        grid-template-columns: 1fr; 
+        grid-template-areas: 
+        "research"
+        "design"
+        "webDev"
+    }
+  }
